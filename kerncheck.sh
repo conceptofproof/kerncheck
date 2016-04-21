@@ -38,7 +38,7 @@ else
         echo -n -e "\033[31m[+] SMAP disabled\033[m\n" 
 fi
 
-if [[ $(sysctl -a 2> /dev/null| awk '/mmap_min_addr/ {print $3}') -ne 1 ]]; then 
+if [[ $(sysctl -a 2> /dev/null| awk '/mmap_min_addr/ {print $3}') -ne 0 ]]; then 
         echo -n -e "\033[32m[+] NULL memory mapping protection enabled\033[m\n" 
 else 
         echo -n -e "\033[31m[+] NULL memory mapping protection disabled\033[m\n" 
