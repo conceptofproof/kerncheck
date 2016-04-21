@@ -1,6 +1,6 @@
 # kerncheck
 just a simple kernel exploit mitigation checker
 
-[screenshot1](images/screenshot1.png)
+![screenshot1](images/screenshot1.png)
 
 to be continued...
