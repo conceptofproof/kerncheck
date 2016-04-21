@@ -8,7 +8,7 @@
 # physmap executable / check architecture. 32-bit kernels have non-executable physmaps. 
 # NULL memory mapping  / sysctl -a | grep mmap_min_addr
 
-printf "Kerncheck v 1.0 by rh0gue\n\n"
+printf "Kerncheck v 1.0 by conceptofproof\n"
 
 if [[ $(cat /proc/sys/kernel/kptr_restrict) -eq 0 ]]; then 
         echo -n -e "\033[31m[+] kallsyms enabled\033[m\n"
